@@ -1,9 +1,10 @@
 # Getting started in perl
 
-1. Follow the first step on https://developers.google.com/genomics/ to setup
- some client secrets. Copy the client_secrets.json file into this directory.
+1. If you have not already done so, follow the Google Genomics [sign up instructions](https://cloud.google.com/genomics/install-genomics-tools#authenticate) to generate and download a valid ``client_secrets.json`` file.  
 
-2. Install the perl dependencies and run the code:
+2. Copy the client_secrets.json file into this directory.
+
+3. Install the perl dependencies and run the code:
 
     ```
     cpanm Path::Class

@@ -1,10 +1,12 @@
 # Getting started in python
 
-1. Follow the first step on https://developers.google.com/genomics/ to setup
- some client secrets. Copy the client_secrets.json file into this directory.
+1. If you have not already done so, follow the Google Genomics [sign up instructions](https://cloud.google.com/genomics/install-genomics-tools#authenticate) to generate and download a valid ``client_secrets.json`` file.  
 
-2. [Install pip](http://www.pip-installer.org/en/latest/installing.html)
-3. Install the python client library and run the code:
+2. Copy the client_secrets.json file into this directory.
+
+3. [Install pip](http://www.pip-installer.org/en/latest/installing.html)
+
+4. Install the python client library and run the code:
 
     ```
     pip install --upgrade google-api-python-client
@@ -14,8 +16,8 @@
 # More information
 
 This example is using
-[Google's python client library](https://developers.google.com/api-client-library/python/),
-which has [pydoc for the genomics methods](https://developers.google.com/resources/api-libraries/documentation/genomics/v1beta/python/latest/).
+[Google's python client library](https://cloud.google.com/api-client-library/python/),
+which has [pydoc for the genomics methods](https://cloud.google.com/resources/api-libraries/documentation/genomics/v1beta/python/latest/).
 
 # Troubleshooting
 

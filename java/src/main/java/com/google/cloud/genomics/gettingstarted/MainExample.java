@@ -79,7 +79,7 @@ public class MainExample {
       if (!clientSecrets.exists()) {
         System.err.println(
             "Client secrets file " + arguments.clientSecretsFilename + " does not exist."
-            + " Visit https://developers.google.com/genomics to learn how"
+            + " Visit https://cloud.google.com/genomics/install-genomics-tools#authenticate to learn how"
             + " to install a client_secrets.json file.  If you have installed a client_secrets.json"
             + " in a specific location, use --client_secrets_filename <path>/client_secrets.json.");
         return;

@@ -1,8 +1,6 @@
 # Getting started in R
 
-1. Follow the first step on https://developers.google.com/genomics/ to setup
-  some client secrets.  Save the "client ID" and "client secret" values from the
-  "Client ID for native application" you just made.
+1. If you have not already done so, follow the Google Genomics [sign up instructions](https://cloud.google.com/genomics/install-genomics-tools#authenticate) to generate and download a valid ``client_secrets.json`` file.  Save the "client ID" and "client secret" values from the credential.
 
 2. Run this code from R with:
   ```

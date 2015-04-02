@@ -3,7 +3,7 @@
 1. Javascript requires a slightly different set of client secrets than the other 
    examples. To set up a client ID:
 
-    1. First create a [Genomics enabled project](https://console.developers.google.com/flows/enableapi?apiid=genomics)
+    1. First create a [Genomics enabled project](https://console.cloud.google.com/flows/enableapi?apiid=genomics)
      in the Google Developers Console.
 
     2. Once you are redirected to the **Credentials** tab, click **Create new Client ID** under
